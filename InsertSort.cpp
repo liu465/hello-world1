@@ -6,7 +6,7 @@
 void insert_sort(int* p,int n)
 {
 	int i,tmp,j;
-	//n>2不能省略
+	//n>2不能省略 dad
 	if (n > 2)
 	{
 		insert_sort(p, n - 1);
